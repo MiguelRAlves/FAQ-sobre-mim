@@ -1,0 +1,146 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.containerfaq{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+    top: 50%;
+    left: 30%;
+    padding: 20px;
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.header{
+    margin-left: 7px;
+}
+
+.header h1{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", "sans-serif";
+    color: hsl(292, 42%, 14%);
+}
+
+.containerfaq .faq{
+    margin: 10px;
+}
+
+.containerfaq .faq .question #question-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    font-family: "Work Sans";
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+
+.containerfaq .faq .question #question-1:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+.containerfaq .faq .question #question-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+
+.containerfaq .faq .question #question-2:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+.containerfaq .faq .question #question-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+
+.containerfaq .faq .question #question-3:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+.containerfaq .faq .question #question-4{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Work Sans";
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+
+.containerfaq .faq .question #question-4:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.answer.visible {
+    max-height: 1000px; /* Ajuste para um valor suficientemente grande para acomodar todas as respostas */
+}
+
+.containerfaq .faq .answer #answer-1{
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+}
+
+
+.containerfaq .faq .answer #answer-2{
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+}
+
+.containerfaq .faq .answer #answer-3{
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+}
+
+.containerfaq .faq .answer #answer-4{
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    color: hsl(292, 16%, 49%);
+}
+
+.containerfaq .faq .question .plus{
+    display: inline;
+}
+
+.containerfaq .faq .question .minus{
+    display: none;
+}
+
+
+
+
